@@ -77,7 +77,10 @@ class MostProbableTagSequence:
 				highest_score = i[highest_score][1]
 				desambiguated_tag_list.append(highest_score)
 			except:
-				error_in_desambiguation_process = True
+				pymorphy2_most_probable = []
+				for token in tagged_tokens:
+					pymorphy2_most_probable.append(token[0][0])
+				return pymorphy2_most_probable
 				
 		desambiguated_tag_list_reversed = desambiguated_tag_list[::-1][2:]
 		desambiguated_sentence = []
