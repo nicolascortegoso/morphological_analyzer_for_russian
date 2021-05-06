@@ -36,7 +36,7 @@ transitivity = ['intr', 'tran']
 grams_to_add = open_corpora_tag_set + case + mark_as_sustantives
 
 # набор подкорпусов
-available_subcorpus = {'1': ('со снятой омонимией', 'предложений: 13277, токенов: 93857, слов: 63306', 'annot.opcorpora.no_ambig.xml'), '2':('со снятой омонимией без UNKN', 'предложений: 10961, токенов: 72619, слов: 50397', 'annot.opcorpora.no_ambig_strict.xml'))}
+available_subcorpus = {'1': ('со снятой омонимией', 'предложений: 13277, токенов: 93857, слов: 63306', 'annot.opcorpora.no_ambig.xml'), '2':('со снятой омонимией без UNKN', 'предложений: 10961, токенов: 72619, слов: 50397', 'annot.opcorpora.no_ambig_strict.xml')}
 selected_subcorpus = False
 
 
